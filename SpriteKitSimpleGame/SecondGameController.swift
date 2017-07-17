@@ -7,13 +7,23 @@
 //
 
 import UIKit
+import SpriteKit
+import GameplayKit
 
-class SecondGameController: UIViewController {
+
+class SecondGameController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let scene = MainDisplay(size: view.bounds.size)
+        
+        let skView = view as! SKView
+        skView.showsFPS = true
+        skView.showsNodeCount = true
+        skView.ignoresSiblingOrder = true
+        scene.scaleMode = .resizeFill
+        skView.presentScene(scene)
+        
     }
 
     override func didReceiveMemoryWarning() {

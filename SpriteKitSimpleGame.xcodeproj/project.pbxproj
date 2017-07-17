@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D10707A1F17AF7700BB4BF6 /* MainDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1070791F17AF7700BB4BF6 /* MainDisplay.swift */; };
+		6D10707E1F181BA000BB4BF6 /* SecondGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D10707D1F181BA000BB4BF6 /* SecondGameController.swift */; };
+		6D42B74B1F18B0D500E46FDC /* stars-in-the-night-sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D42B74A1F18B0D500E46FDC /* stars-in-the-night-sky.jpg */; };
+		6D42B74D1F18B98F00E46FDC /* FoxDancingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D42B74C1F18B98F00E46FDC /* FoxDancingAnimation.swift */; };
+		6D42B74F1F18C74B00E46FDC /* tickleTheFox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D42B74E1F18C74B00E46FDC /* tickleTheFox.swift */; };
 		6D5B10141F13CCD800F23DE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B10131F13CCD800F23DE7 /* AppDelegate.swift */; };
 		6D5B10161F13CCD800F23DE7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B10151F13CCD800F23DE7 /* GameScene.sks */; };
 		6D5B10181F13CCD800F23DE7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B10171F13CCD800F23DE7 /* Actions.sks */; };
@@ -15,9 +20,16 @@
 		6D5B101F1F13CCD800F23DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B101D1F13CCD800F23DE7 /* Main.storyboard */; };
 		6D5B10211F13CCD800F23DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B10201F13CCD800F23DE7 /* Assets.xcassets */; };
 		6D5B10241F13CCD800F23DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B10221F13CCD800F23DE7 /* LaunchScreen.storyboard */; };
+		6D5B102C1F13D93100F23DE7 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 6D5B102B1F13D93100F23DE7 /* Sounds */; };
+		6D5B102E1F13D9E100F23DE7 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B102D1F13D9E100F23DE7 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D1070791F17AF7700BB4BF6 /* MainDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDisplay.swift; sourceTree = "<group>"; };
+		6D10707D1F181BA000BB4BF6 /* SecondGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondGameController.swift; sourceTree = "<group>"; };
+		6D42B74A1F18B0D500E46FDC /* stars-in-the-night-sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "stars-in-the-night-sky.jpg"; path = "../../../Downloads/stars-in-the-night-sky.jpg"; sourceTree = "<group>"; };
+		6D42B74C1F18B98F00E46FDC /* FoxDancingAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoxDancingAnimation.swift; sourceTree = "<group>"; };
+		6D42B74E1F18C74B00E46FDC /* tickleTheFox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tickleTheFox.swift; sourceTree = "<group>"; };
 		6D5B10101F13CCD800F23DE7 /* SpriteKitSimpleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitSimpleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5B10131F13CCD800F23DE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D5B10151F13CCD800F23DE7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +40,8 @@
 		6D5B10201F13CCD800F23DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D5B10231F13CCD800F23DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D5B10251F13CCD800F23DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D5B102B1F13D93100F23DE7 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../../../Downloads/SpriteKitSimpleGameResources/Sounds; sourceTree = "<group>"; };
+		6D5B102D1F13D9E100F23DE7 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +74,20 @@
 		6D5B10121F13CCD800F23DE7 /* SpriteKitSimpleGame */ = {
 			isa = PBXGroup;
 			children = (
+				6D5B102B1F13D93100F23DE7 /* Sounds */,
 				6D5B10131F13CCD800F23DE7 /* AppDelegate.swift */,
 				6D5B10151F13CCD800F23DE7 /* GameScene.sks */,
 				6D5B10171F13CCD800F23DE7 /* Actions.sks */,
 				6D5B10191F13CCD800F23DE7 /* GameScene.swift */,
+				6D5B102D1F13D9E100F23DE7 /* GameOverScene.swift */,
 				6D5B101B1F13CCD800F23DE7 /* GameViewController.swift */,
 				6D5B101D1F13CCD800F23DE7 /* Main.storyboard */,
+				6D10707D1F181BA000BB4BF6 /* SecondGameController.swift */,
+				6D1070791F17AF7700BB4BF6 /* MainDisplay.swift */,
+				6D42B74C1F18B98F00E46FDC /* FoxDancingAnimation.swift */,
+				6D42B74E1F18C74B00E46FDC /* tickleTheFox.swift */,
 				6D5B10201F13CCD800F23DE7 /* Assets.xcassets */,
+				6D42B74A1F18B0D500E46FDC /* stars-in-the-night-sky.jpg */,
 				6D5B10221F13CCD800F23DE7 /* LaunchScreen.storyboard */,
 				6D5B10251F13CCD800F23DE7 /* Info.plist */,
 			);
@@ -132,7 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D5B102C1F13D93100F23DE7 /* Sounds in Resources */,
 				6D5B101F1F13CCD800F23DE7 /* Main.storyboard in Resources */,
+				6D42B74B1F18B0D500E46FDC /* stars-in-the-night-sky.jpg in Resources */,
 				6D5B10161F13CCD800F23DE7 /* GameScene.sks in Resources */,
 				6D5B10211F13CCD800F23DE7 /* Assets.xcassets in Resources */,
 				6D5B10241F13CCD800F23DE7 /* LaunchScreen.storyboard in Resources */,
@@ -149,7 +172,12 @@
 			files = (
 				6D5B101A1F13CCD800F23DE7 /* GameScene.swift in Sources */,
 				6D5B101C1F13CCD800F23DE7 /* GameViewController.swift in Sources */,
+				6D5B102E1F13D9E100F23DE7 /* GameOverScene.swift in Sources */,
 				6D5B10141F13CCD800F23DE7 /* AppDelegate.swift in Sources */,
+				6D10707A1F17AF7700BB4BF6 /* MainDisplay.swift in Sources */,
+				6D10707E1F181BA000BB4BF6 /* SecondGameController.swift in Sources */,
+				6D42B74D1F18B98F00E46FDC /* FoxDancingAnimation.swift in Sources */,
+				6D42B74F1F18C74B00E46FDC /* tickleTheFox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +339,7 @@
 				6D5B102A1F13CCD800F23DE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
